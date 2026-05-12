@@ -1944,13 +1944,13 @@ Each input component is shown. Note that values are shown hex-encoded for displa
 
 Finally, the fully assembled `M'` is given, which is simply the concatenation of the above values.
 
-First is an example of constructing the message representative `M'` for MLDSA65-ECDSA-P256-SHA256 without a context string `ctx`.
+First is an example of constructing the message representative `M'` for MLDSA65-ECDSA-P256-SHA512 without a context string `ctx`.
 
 ~~~
 {::include ./src/messageFormatSample_noctx.md}
 ~~~
 
-Second is an example of constructing the message representative `M'` for MLDSA65-ECDSA-P256-SHA256 with a context string `ctx`.
+Second is an example of constructing the message representative `M'` for MLDSA65-ECDSA-P256-SHA512 with a context string `ctx`.
 
 The inputs are similar to the first example with the exception that there is an 8-byte context string 'ctx'.
 
