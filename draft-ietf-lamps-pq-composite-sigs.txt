@@ -5,13 +5,13 @@
 LAMPS                                                       M. Ounsworth
 Internet-Draft                                                   J. Gray
 Intended status: Standards Track                                 Entrust
-Expires: 30 October 2026                                         M. Pala
+Expires: 21 November 2026                                        M. Pala
                                                              OpenCA Labs
                                                             J. Klaussner
                                                     Bundesdruckerei GmbH
                                                               S. Fluhrer
                                                            Cisco Systems
-                                                           28 April 2026
+                                                             20 May 2026
 
 
 Composite Module-Lattice-Based Digital Signature Algorithm (ML-DSA) for
@@ -62,7 +62,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 30 October 2026.
+   This Internet-Draft will expire on 21 November 2026.
 
 Copyright Notice
 
@@ -3440,7 +3440,7 @@ Appendix D.  Message Representative Examples
    concatenation of the above values.
 
    First is an example of constructing the message representative M' for
-   MLDSA65-ECDSA-P256-SHA256 without a context string ctx.
+   MLDSA65-ECDSA-P256-SHA512 without a context string ctx.
 
    Example of id-MLDSA65-ECDSA-P256-SHA512 construction of M'.
 
@@ -3473,7 +3473,7 @@ Appendix D.  Message Representative Examples
    02f56fadba4cd9e8d654ab9f2e96dc5c795ea176fa20ede8d854c342f903533
 
    Second is an example of constructing the message representative M'
-   for MLDSA65-ECDSA-P256-SHA256 with a context string ctx.
+   for MLDSA65-ECDSA-P256-SHA512 with a context string ctx.
 
    The inputs are similar to the first example with the exception that
    there is an 8-byte context string 'ctx'.
